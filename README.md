@@ -90,6 +90,8 @@ The main executable `symtucker` will be located in the `build/examples/` directo
 
     - hoevd: Higher-Order Eigenvalue Decomposition.
 
+- threading: use OMP_NUM_THREADS environment variable to set the number of threads.
+
 **Example Usage:**
 
 Assuming you are in the build directory and using an example tensor file located at `../examples/contact-5.tns`:
